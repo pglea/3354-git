@@ -1,0 +1,6 @@
+(a) 7
+(b) Tue Jan 24 22:28:11 2017 -0600
+(c) Git log shows the commits, while git status show files that have changes.
+(d) Unstaged files aren't included in a commit, but are still being tracked. Untracked files, however, are neither included in a commit nor being tracked.
+(e)Git checkout matches files in the working tree to their versions in another specified tree, while Git reset resets the current HEAD to a specified state.
+(f)It will fail. The changes must be committed or stashed first.
