@@ -6,8 +6,10 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
-            System.err.println("Please provide integers to add");
+        } catch (NumberFormatException e) {
+            System.err.println("Please provide integers to add or subtract.");
+        } catch (IllegalArgumentException e){
+        	System.err.println("Please only include integers and a '-' to subtract");
         }
     }
 
